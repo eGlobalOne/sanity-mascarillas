@@ -1,0 +1,2 @@
+# sanity-mascarillas
+GitHub Pages
