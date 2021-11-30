@@ -1034,115 +1034,110 @@ a {
     left: -1rem;
   }
 }
-.cid-sKCt4gIWhu {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-  background-color: #ffffff;
-  overflow: hidden;
+.cid-sQgR5MRhPz {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f0f2f5;
 }
-.cid-sKCt4gIWhu .mbr-text,
-.cid-sKCt4gIWhu .mbr-section-btn {
-  color: #ffffff;
+.cid-sQgR5MRhPz .row {
+  flex-direction: row-reverse;
 }
-.cid-sKCt4gIWhu .btn-white {
-  color: #333333!important;
-}
-.cid-sKCt4gIWhu .image1 {
+.cid-sQgR5MRhPz .price-wrapper {
   position: absolute;
-  right: 8%;
-  top: 25%;
-  height: 500px;
-  width: auto;
-  animation: rev 5s ease-in-out infinite;
+  right: 20%;
+  top: 1rem;
+  background: #72dfe9;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.cid-sKCt4gIWhu .image2 {
-  position: absolute;
-  left: 8%;
-  bottom: 20%;
-  height: 500px;
-  width: auto;
-  animation: rev2 5s ease-in-out infinite;
+.cid-sQgR5MRhPz .price-wrapper h4,
+.cid-sQgR5MRhPz .price-wrapper h5 {
+  width: fit-content;
 }
-@keyframes rev {
-  0% {
-    transform: translateX(0px) translateY(0px);
-  }
-  50% {
-    transform: translateX(10px) translateY(-10px);
-  }
-  100% {
-    transform: translateX(0px) translateY(0px);
+@media (max-width: 767px) {
+  .cid-sQgR5MRhPz .price-wrapper {
+    width: 100px;
+    height: 100px;
   }
 }
-@keyframes rev2 {
-  0% {
-    transform: translateX(0px) translateY(0px);
-  }
-  50% {
-    transform: translateX(15px) translateY(5px);
-  }
-  100% {
-    transform: translateX(0px) translateY(0px);
+.cid-sQgR5MRhPz .btn .mbr-iconfont-btn {
+  transition: opacity 0.3s, transform 0.3s;
+  opacity: 0;
+  width: 0;
+}
+.cid-sQgR5MRhPz .btn:hover {
+  padding-left: 2.5rem;
+  padding-right: 3.5rem;
+}
+.cid-sQgR5MRhPz .btn:hover .mbr-iconfont-btn {
+  transition-delay: 0.1s;
+  opacity: 1;
+  transform: translateX(7px);
+}
+.cid-sQgR5MRhPz .cards {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 767px) {
+  .cid-sQgR5MRhPz .cards {
+    flex-direction: column;
+    align-items: center;
   }
 }
-.cid-sKCt4gIWhu svg {
-  position: absolute;
-  left: 50%;
-  top: -150px;
-  transform: translateX(-50%);
+.cid-sQgR5MRhPz .card-title {
+  padding: 0;
+  margin: 0;
 }
-.cid-sKCt4gIWhu svg path {
-  fill: #173c70;
+.cid-sQgR5MRhPz .card-wrapper {
+  display: flex;
 }
-@media (max-width: 1600px) {
-  .cid-sKCt4gIWhu .image1 {
-    top: 5%;
-    height: 280px;
-  }
-  .cid-sKCt4gIWhu .image2 {
-    bottom: 5%;
-    height: 280px;
-  }
-}
-@media (max-width: 992px) {
-  .cid-sKCt4gIWhu svg {
-    width: 1050px;
-    height: 1050px;
-  }
-  .cid-sKCt4gIWhu .image1 {
-    height: 220px;
-  }
-  .cid-sKCt4gIWhu .image2 {
-    bottom: 15%;
-    height: 220px;
+@media (max-width: 991px) {
+  .cid-sQgR5MRhPz .card-wrapper {
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 767px) {
-  .cid-sKCt4gIWhu svg {
-    top: -120px;
-  }
-  .cid-sKCt4gIWhu .image1 {
-    left: 50%;
-    right: 50%;
-    height: 180px;
-    top: 3rem;
-    transform: translateX(-50%);
-    animation: none;
-  }
-  .cid-sKCt4gIWhu .image2 {
-    right: 50%;
-    left: 50%;
-    bottom: 3rem;
-    height: 180px;
-    transform: translateX(-50%);
-    animation: none;
+  .cid-sQgR5MRhPz .card-wrapper {
+    width: fit-content;
   }
 }
-.cid-sKCt4gIWhu .mbr-section-title {
-  color: #ffffff;
+.cid-sQgR5MRhPz .card-icon {
+  font-size: 1.5rem;
+  color: currentColor;
+  padding-right: 0.8rem;
 }
-.cid-sKCt4gIWhu .mbr-section-subtitle {
-  color: #72dfe9;
+@media (max-width: 991px) {
+  .cid-sQgR5MRhPz .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-sQgR5MRhPz .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sQgR5MRhPz .card-title,
+.cid-sQgR5MRhPz .card-icon {
+  color: #5b6c8f;
+}
+.cid-sQgR5MRhPz .mbr-section-title {
+  color: #173c70;
+}
+.cid-sQgR5MRhPz .mbr-text,
+.cid-sQgR5MRhPz .mbr-section-btn {
+  color: #353535;
+}
+.cid-sQgR5MRhPz .price-title {
+  text-align: center;
+  color: #173c70;
+}
+.cid-sQgR5MRhPz .price {
+  text-align: center;
+  color: #173c70;
 }
 .cid-sKTRK3Bt0a {
   padding-top: 6rem;
